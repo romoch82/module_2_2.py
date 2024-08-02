@@ -1,0 +1,7 @@
+first = input("введите первое число: ")
+second = input("введите второе число: ")
+third = input("введите третье число: ")
+if first == second and third == first: print(3)
+if not first == second and not third == first: print(0)
+if first == second and not third == first: print(2)
+if not first == second and third == first: print(2)
